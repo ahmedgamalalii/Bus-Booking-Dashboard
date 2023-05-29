@@ -1,0 +1,88 @@
+// import React, { useState } from 'react'
+// import { useEffect } from 'react';
+// import Table from 'react-bootstrap/Table';
+// import { Link } from 'react-router-dom';
+// import Swal from 'sweetalert2'
+
+// const ManageDestination=() => {
+//     const[destinations,setDestination]=useState([]);
+//     useEffect(()=>{getAllDestinations( )},[]);
+
+//     const getAllDestinations=()=>{
+//         fetch(`http://localhost:9000/destination`)
+//         .then((res)=>res.json())
+//         .then((data)=>{
+//             console.log(data);
+//             setDestination(data);
+//         });
+//     }
+//     const deleteDestination=(destination)=>{
+//         Swal.fire({
+//             title:`Are You Sure To Delete ${destination.id}?`,
+//             showCancelButton:true,
+//         }) .then((data)=> {
+//             if(data.isConfirmed){
+//                 fetch(`http://localhost:9000/destination/${destination.id}`,{
+//                     method: "DELETE",
+//                 })
+//                 .then((res)=> res.json())
+//                 .then(()=>{
+//                     getAllDestinations();
+//                 });
+//             }
+//         });
+
+    
+//     };
+//     return (
+//         <div className='table'>
+//             <div>
+//                 <h1>manage Destinations</h1>
+//             </div>
+//             <div>
+//                 < Link to={'/dest/add'} className='btn btn-success'> Add new destination</Link>
+//             </div>
+//             <Table striped bordered hover variant="dark" className='mt-5' >
+//                 <thead>
+//                     <tr>
+//                         <th>ID</th>
+//                         <th >From</th>
+//                         <th  >To</th>
+//                         <th>Date</th>
+//                         <th >Time</th>
+//                         <th  >Type</th>
+
+//                     </tr>
+//                 </thead>
+//                 <tbody>
+//                     {destinations.map((destination)=>{
+//                         return(
+//                             <tr key={destination.id}>
+//                         <td>{destination.id}</td>
+//                         <td>{destination.from}</td>
+//                         <td>{destination.to}</td>
+//                         <td>{destination.date}</td>
+//                         <td>{destination.time}</td>
+//                         <td>{destination.type}</td>
+
+//                         <td>
+//                             <button className='btn btn-primary btn-sm'>Edit</button>
+//                             < Link to={`/destination/${destination.id}`} className='btn btn-info btn-sm'> view</Link>
+//                             <button className='btn btn-danger btn-sm' onClick={()=>deleteDestination(destination)}>Delete</button>
+//                         </td>
+
+//                     </tr>
+//                         )
+
+//                     })}
+                    
+
+//                 </tbody>
+//             </Table>
+
+//         </div>
+
+//     );
+// }
+
+// export default ManageDestination;

@@ -1,0 +1,133 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "from": "cairo",
+      "to": "cairo",
+      "date": "3/4/2023",
+      "time": "3:30 pm",
+      "type": "VIP"
+    },
+    {
+      "from": "Alexandria",
+      "to": "Sahl Hasheesh",
+      "date": "9",
+      "time": "5",
+      "type": "VIP",
+      "id": 2
+    },
+    {
+      "from": "Alexandria",
+      "to": "Aswan",
+      "date": "5",
+      "time": "9",
+      "type": "A-Class",
+      "id": 3
+    }
+  ],
+  "traveler": [
+    {
+      "id": 1,
+      "name": "hasnaa",
+      "PhoneNumber": "01126438129"
+    },
+    {
+      "id": 2,
+      "name": "muhammed",
+      "PhoneNumber": "01126438129"
+    },
+    {
+      "id": 3,
+      "name": "shaden",
+      "PhoneNumber": "01126438129"
+    },
+    {
+      "id": 4,
+      "name": "omar",
+      "PhoneNumber": "01126438129"
+    },
+    {
+      "id": 5,
+      "name": "eman",
+      "PhoneNumber": "01126438129"
+    },
+    {
+      "id": 6,
+      "name": "menna",
+      "PhoneNumber": "01126438129"
+    },
+    {
+      "name": "hasnaaaaa",
+      "PhoneNumber": "4444444",
+      "id": 7
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "destination": "pyramids",
+      "numberOfSeats": 2,
+      "date": "3/4/2023",
+      "time": "3:30 pm",
+      "type": "VIP"
+    },
+    {
+      "destination": "Sharm",
+      "numberOfSeats": "4",
+      "date": "",
+      "time": "",
+      "type": "A-Class",
+      "id": 2
+    },
+    {
+      "destination": "Sahl Hasheesh",
+      "numberOfSeats": "1",
+      "date": "",
+      "time": "",
+      "type": "VIP",
+      "id": 3
+    }
+  ],
+  "destination": [
+    {
+      "id": 1,
+      "from": "cairo",
+      "to": "cairo",
+      "date": "3/4/2023",
+      "time": "3:30 pm",
+      "type": "VIP"
+    },
+    {
+      "id": 1,
+      "from": "cairo",
+      "to": "cairo",
+      "date": "3/4/2023",
+      "time": "3:30 pm",
+      "type": "VIP"
+    },
+    {
+      "id": 1,
+      "from": "cairo",
+      "to": "cairo",
+      "date": "3/4/2023",
+      "time": "3:30 pm",
+      "type": "VIP"
+    },
+    {
+      "id": 1,
+      "from": "cairo",
+      "to": "cairo",
+      "date": "3/4/2023",
+      "time": "3:30 pm",
+      "type": "VIP"
+    },
+    {
+      "from": "Giza",
+      "to": "Matrouh",
+      "date": "3",
+      "time": "5",
+      "type": "",
+      "id": 2
+    }
+  ]
+}

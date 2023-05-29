@@ -1,0 +1,17 @@
+.home{
+    margin-top: 5px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.card{
+  margin-top: 5px;
+margin-bottom: 0px;
+margin-right: 0px;
+margin-left: 5px;
+
+
+}
